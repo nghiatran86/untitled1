@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ONCLICK</title>
+</head>
+<body>
+<P onclick="do_something()">Clikc me</P>
+<p id="demo">Click</p>
+<script>
+    function do_something() {
+        alert("hello world")
+    }
+    var demo = document.getElementById("demo");
+    demo.addEventListener("Click",clickfunction);
+    function clickfunction() {
+        alert("xin chào");
+    }
+</script>
+
+
+</body>
+</html>
